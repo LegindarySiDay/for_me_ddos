@@ -79,4 +79,4 @@ while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      if sent % 10000 == 0:
-       print("мы уже послали",sent, "пакетов на" ,ip,port)
+       print("мы уже послали",sent, "пакетов на" ,ip,"порт",port)
